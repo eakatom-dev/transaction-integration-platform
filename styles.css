@@ -41,3 +41,29 @@ footer {
     padding: 2rem;
     text-align: center;
 }
+
+.capabilities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.capabilities-grid li {
+    border: 1px solid #aaa;
+    padding: 1rem;
+}
+
+.step-by-step {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding-left: 0;
+}
+
+.step-by-step li {
+    border: 1px solid #aaa;
+    padding: 1rem;
+    list-style-position: inside;
+}
