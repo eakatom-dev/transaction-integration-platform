@@ -67,3 +67,16 @@ footer {
     padding: 1rem;
     list-style-position: inside;
 }
+
+.activity-log {
+    height: 120px;
+    border: 1px solid #aaa;
+    overflow-y: auto;
+}
+
+.api-request-log pre {
+    max-width: 100%;
+    overflow-x: auto;
+    border: 1px solid #aaa;
+    padding: 1rem;
+}
