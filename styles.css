@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+a:focus-visible {
+    outline: 3px solid #2563eb;
+    outline-offset: 3px;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
