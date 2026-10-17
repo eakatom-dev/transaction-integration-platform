@@ -45,7 +45,7 @@ footer {
 
 .capabilities-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: 1fr;
     gap: 1rem;
     list-style: none;
     padding: 0;
@@ -54,6 +54,18 @@ footer {
 .capabilities-grid li {
     border: 1px solid #aaa;
     padding: 1rem;
+}
+
+@media (min-width: 600px) {
+    .capabilities-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .capabilities-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 .step-by-step {
